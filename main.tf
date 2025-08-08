@@ -8,3 +8,6 @@ module "vnet1" {
 }
 
 
+terraform {
+  backend "azurerm" {}
+}
